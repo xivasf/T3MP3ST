@@ -1,0 +1,249 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - complementary [ref=f2e3]:
+      - generic [ref=f2e5]:
+        - generic [ref=f2e6]: ⚡
+        - text: T3MP3ST
+        - generic [ref=f2e7]: v1.0
+      - generic [ref=f2e8]:
+        - generic [ref=f2e9]: API Connected
+        - button "↻" [ref=f2e12] [cursor=pointer]
+      - navigation [ref=f2e13]:
+        - generic [ref=f2e14]: Main
+        - generic [ref=f2e15] [cursor=pointer]:
+          - generic [ref=f2e16]: ⚔️
+          - text: War Room
+        - generic [ref=f2e17] [cursor=pointer]:
+          - generic [ref=f2e18]: 📡
+          - text: Live Scan
+        - generic [ref=f2e19] [cursor=pointer]:
+          - generic [ref=f2e20]: 🧾
+          - text: Scope Receipts
+          - generic [ref=f2e21]: "0"
+        - generic [ref=f2e22] [cursor=pointer]:
+          - generic [ref=f2e23]: 🤖
+          - text: Operatives
+          - generic [ref=f2e24]: "0"
+        - generic [ref=f2e25] [cursor=pointer]:
+          - generic [ref=f2e26]: 🔐
+          - text: Evidence Vault
+        - generic [ref=f2e27]: Ranges
+        - generic [ref=f2e28] [cursor=pointer]:
+          - generic [ref=f2e29]: 📈
+          - text: OBSIDIVM
+        - generic [ref=f2e30] [cursor=pointer]:
+          - generic [ref=f2e31]: 🚩
+          - text: CTF Range
+          - generic [ref=f2e32]: "0"
+        - generic [ref=f2e33]: Toolkit
+        - generic [ref=f2e34] [cursor=pointer]:
+          - generic [ref=f2e35]: 📡
+          - text: Arsenal
+        - generic [ref=f2e36] [cursor=pointer]:
+          - generic [ref=f2e37]: 💻
+          - text: Terminal
+        - generic [ref=f2e38] [cursor=pointer]:
+          - generic [ref=f2e39]: 💾
+          - text: Config Library
+        - generic [ref=f2e40]: Command
+        - generic [ref=f2e41] [cursor=pointer]:
+          - generic [ref=f2e42]: ★
+          - text: Op Admiral
+        - generic [ref=f2e43]: System
+        - generic [ref=f2e44] [cursor=pointer]:
+          - generic [ref=f2e45]: 🧬
+          - text: Self-Improvement
+        - generic [ref=f2e46] [cursor=pointer]:
+          - generic [ref=f2e47]: ⚙️
+          - text: Settings
+        - generic [ref=f2e48] [cursor=pointer]:
+          - generic [ref=f2e49]: ℹ️
+          - text: About
+      - generic [ref=f2e50]:
+        - generic [ref=f2e51]: Connected
+        - generic [ref=f2e54]:
+          - generic [ref=f2e55]: Theme
+          - button "Storm theme" [ref=f2e56] [cursor=pointer]
+          - button "Ember theme" [ref=f2e57] [cursor=pointer]
+          - button "Crimson theme" [ref=f2e58] [cursor=pointer]
+          - button "Void theme" [ref=f2e59] [cursor=pointer]
+    - main [ref=f2e60]:
+      - generic [ref=f2e61]:
+        - heading "Operatives" [level=1] [ref=f2e1687]
+        - generic [ref=f2e63]:
+          - 'generic "⚠ No proxy: test traffic leaves from your real IP (2607:fb91:5304:c934:5069:639d:d7da:db41). Configure a SOCKS5 proxy in Settings → Network." [ref=f2e1081] [cursor=pointer]':
+            - generic [ref=f2e66]: "IP:"
+            - generic [ref=f2e67]: 2607:fb91:5304:c934:5069:639d:d7da:db41
+          - button "Guided tour" [ref=f2e68] [cursor=pointer]: "?"
+          - button "⌘ Actions" [ref=f2e69] [cursor=pointer]
+          - button "⚔️ War Room" [ref=f2e70] [cursor=pointer]
+      - generic [ref=f2e71]:
+        - generic [ref=f2e1688]:
+          - generic [ref=f2e1689]:
+            - generic [ref=f2e1690]:
+              - generic [ref=f2e1691]:
+                - generic [ref=f2e1692]: 🤖 Specialist Roster
+                - generic [ref=f2e1693]: Click any operative to view + edit its prompt · tools · sampling params
+              - generic [ref=f2e1694]:
+                - button "⬡ Deploy all" [ref=f2e1695] [cursor=pointer]
+                - button "✕ Recall" [ref=f2e1696] [cursor=pointer]
+            - generic [ref=f2e1697]:
+              - generic "Click to edit prompt · tools · params" [ref=f2e1698] [cursor=pointer]:
+                - generic [ref=f2e1699]:
+                  - generic [ref=f2e1700]: 🔍
+                  - generic [ref=f2e1701]: Reconnaissance Operator
+                  - generic [ref=f2e1702]: IDLE
+                - generic [ref=f2e1704]: Specialized in OSINT, network discovery, and asset enumeration
+                - generic [ref=f2e1705]:
+                  - generic [ref=f2e1706]: ●
+                  - text: recon
+                  - generic [ref=f2e1707]: 15 tools
+                - generic [ref=f2e1708]:
+                  - button "▶ Deploy" [ref=f2e1709]
+                  - button "⚙ Edit" [ref=f2e1710]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1711] [cursor=pointer]:
+                - generic [ref=f2e1712]:
+                  - generic [ref=f2e1713]: 📡
+                  - generic [ref=f2e1714]: Vulnerability Scanner
+                  - generic [ref=f2e1715]: IDLE
+                - generic [ref=f2e1717]: Identifies vulnerabilities and security misconfigurations
+                - generic [ref=f2e1718]:
+                  - generic [ref=f2e1719]: ●
+                  - text: scanner
+                  - generic [ref=f2e1720]: 15 tools
+                - generic [ref=f2e1721]:
+                  - button "▶ Deploy" [ref=f2e1722]
+                  - button "⚙ Edit" [ref=f2e1723]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1724] [cursor=pointer]:
+                - generic [ref=f2e1725]:
+                  - generic [ref=f2e1726]: 💥
+                  - generic [ref=f2e1727]: Exploitation Specialist
+                  - generic [ref=f2e1728]: IDLE
+                - generic [ref=f2e1730]: Executes exploits and achieves initial access
+                - generic [ref=f2e1731]:
+                  - generic [ref=f2e1732]: ●
+                  - text: exploiter
+                  - generic [ref=f2e1733]: 19 tools
+                - generic [ref=f2e1734]:
+                  - button "▶ Deploy" [ref=f2e1735]
+                  - button "⚙ Edit" [ref=f2e1736]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1737] [cursor=pointer]:
+                - generic [ref=f2e1738]:
+                  - generic [ref=f2e1739]: 🥷
+                  - generic [ref=f2e1740]: Lateral Movement Specialist
+                  - generic [ref=f2e1741]: IDLE
+                - generic [ref=f2e1743]: Moves through networks and escalates privileges
+                - generic [ref=f2e1744]:
+                  - generic [ref=f2e1745]: ●
+                  - text: infiltrator
+                  - generic [ref=f2e1746]: 16 tools
+                - generic [ref=f2e1747]:
+                  - button "▶ Deploy" [ref=f2e1748]
+                  - button "⚙ Edit" [ref=f2e1749]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1750] [cursor=pointer]:
+                - generic [ref=f2e1751]:
+                  - generic [ref=f2e1752]: 📤
+                  - generic [ref=f2e1753]: Data Exfiltration Specialist
+                  - generic [ref=f2e1754]: IDLE
+                - generic [ref=f2e1756]: Collects and extracts sensitive data
+                - generic [ref=f2e1757]:
+                  - generic [ref=f2e1758]: ●
+                  - text: exfiltrator
+                  - generic [ref=f2e1759]: 15 tools
+                - generic [ref=f2e1760]:
+                  - button "▶ Deploy" [ref=f2e1761]
+                  - button "⚙ Edit" [ref=f2e1762]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1763] [cursor=pointer]:
+                - generic [ref=f2e1764]:
+                  - generic [ref=f2e1765]: 👻
+                  - generic [ref=f2e1766]: Persistence Specialist
+                  - generic [ref=f2e1767]: IDLE
+                - generic [ref=f2e1769]: Establishes persistence and covers tracks
+                - generic [ref=f2e1770]:
+                  - generic [ref=f2e1771]: ●
+                  - text: ghost
+                  - generic [ref=f2e1772]: 15 tools
+                - generic [ref=f2e1773]:
+                  - button "▶ Deploy" [ref=f2e1774]
+                  - button "⚙ Edit" [ref=f2e1775]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1776] [cursor=pointer]:
+                - generic [ref=f2e1777]:
+                  - generic [ref=f2e1778]: 🎖️
+                  - generic [ref=f2e1779]: Mission Coordinator
+                  - generic [ref=f2e1780]: IDLE
+                - generic [ref=f2e1782]: Orchestrates operations and manages agents
+                - generic [ref=f2e1783]:
+                  - generic [ref=f2e1784]: ●
+                  - text: coordinator
+                  - generic [ref=f2e1785]: 14 tools
+                - generic [ref=f2e1786]:
+                  - button "▶ Deploy" [ref=f2e1787]
+                  - button "⚙ Edit" [ref=f2e1788]
+              - generic "Click to edit prompt · tools · params" [ref=f2e1789] [cursor=pointer]:
+                - generic [ref=f2e1790]:
+                  - generic [ref=f2e1791]: 📊
+                  - generic [ref=f2e1792]: Security Analyst
+                  - generic [ref=f2e1793]: IDLE
+                - generic [ref=f2e1795]: Analyzes findings and generates reports
+                - generic [ref=f2e1796]:
+                  - generic [ref=f2e1797]: ●
+                  - text: analyst
+                  - generic [ref=f2e1798]: 15 tools
+                - generic [ref=f2e1799]:
+                  - button "▶ Deploy" [ref=f2e1800]
+                  - button "⚙ Edit" [ref=f2e1801]
+          - generic [ref=f2e1802]:
+            - generic [ref=f2e1803]:
+              - generic [ref=f2e1805]:
+                - generic [ref=f2e1806]: Active Formation
+                - generic [ref=f2e1807]: Custom Deployment
+              - generic [ref=f2e1808]:
+                - generic [ref=f2e1809] [cursor=pointer]:
+                  - generic [ref=f2e1810]: ⚔️
+                  - generic [ref=f2e1811]: Full Kill Chain
+                  - generic [ref=f2e1812]: Complete MITRE ATT&CK coverage with all operators
+                  - generic [ref=f2e1813]: 8 operators
+                - generic [ref=f2e1814] [cursor=pointer]:
+                  - generic [ref=f2e1815]: 🔭
+                  - generic [ref=f2e1816]: Recon Squad
+                  - generic [ref=f2e1817]: Intelligence gathering focus - passive reconnaissance only
+                  - generic [ref=f2e1818]: 3 operators
+                - generic [ref=f2e1819] [cursor=pointer]:
+                  - generic [ref=f2e1820]: 🎯
+                  - generic [ref=f2e1821]: Strike Team
+                  - generic [ref=f2e1822]: Exploitation-focused team for rapid initial access
+                  - generic [ref=f2e1823]: 3 operators
+                - generic [ref=f2e1824] [cursor=pointer]:
+                  - generic [ref=f2e1825]: 🔴
+                  - generic [ref=f2e1826]: Red Team
+                  - generic [ref=f2e1827]: Balanced offensive team with full attack capability
+                  - generic [ref=f2e1828]: 5 operators
+                - generic [ref=f2e1829] [cursor=pointer]:
+                  - generic [ref=f2e1830]: 🌙
+                  - generic [ref=f2e1831]: Stealth Ops
+                  - generic [ref=f2e1832]: Low-noise operations with evasion focus
+                  - generic [ref=f2e1833]: 4 operators
+                - generic [ref=f2e1834] [cursor=pointer]:
+                  - generic [ref=f2e1835]: 🐉
+                  - generic [ref=f2e1836]: APT Simulation
+                  - generic [ref=f2e1837]: Advanced persistent threat emulation with full coordination
+                  - generic [ref=f2e1838]: 6 operators
+                - generic [ref=f2e1839] [cursor=pointer]:
+                  - generic [ref=f2e1840]: 🌐
+                  - generic [ref=f2e1841]: Web Assault
+                  - generic [ref=f2e1842]: Web application testing specialists
+                  - generic [ref=f2e1843]: 3 operators
+                - generic [ref=f2e1844] [cursor=pointer]:
+                  - generic [ref=f2e1845]: 🏰
+                  - generic [ref=f2e1846]: AD Attack
+                  - generic [ref=f2e1847]: Active Directory focused attack team
+                  - generic [ref=f2e1848]: 4 operators
+            - generic [ref=f2e1849]:
+              - generic [ref=f2e1850]:
+                - generic [ref=f2e1851]: "0"
+                - generic [ref=f2e1852]: Units Active
+              - generic [ref=f2e1853]:
+                - generic [ref=f2e1854]: "0"
+                - generic [ref=f2e1855]: Tools Ready
+        - text: SENSOR DECK // AUTHORIZED OPERATIONS
+  - button "Guided tour" [ref=f2e1068] [cursor=pointer]: "?"

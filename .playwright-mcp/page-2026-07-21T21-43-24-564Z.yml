@@ -1,0 +1,603 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - complementary [ref=f1e3]:
+      - generic [ref=f1e5]:
+        - generic [ref=f1e6]: ⚡
+        - text: T3MP3ST
+        - generic [ref=f1e7]: v1.0
+      - generic [ref=f1e8]:
+        - generic [ref=f1e9]: Checking...
+        - button "↻" [ref=f1e12] [cursor=pointer]
+      - navigation [ref=f1e13]:
+        - generic [ref=f1e14]: Main
+        - generic [ref=f1e15] [cursor=pointer]:
+          - generic [ref=f1e16]: ⚔️
+          - text: War Room
+        - generic [ref=f1e17] [cursor=pointer]:
+          - generic [ref=f1e18]: 📡
+          - text: Live Scan
+        - generic [ref=f1e19] [cursor=pointer]:
+          - generic [ref=f1e20]: 🧾
+          - text: Scope Receipts
+          - generic [ref=f1e21]: "0"
+        - generic [ref=f1e22] [cursor=pointer]:
+          - generic [ref=f1e23]: 🤖
+          - text: Operatives
+          - generic [ref=f1e24]: "0"
+        - generic [ref=f1e25] [cursor=pointer]:
+          - generic [ref=f1e26]: 🔐
+          - text: Evidence Vault
+        - generic [ref=f1e27]: Ranges
+        - generic [ref=f1e28] [cursor=pointer]:
+          - generic [ref=f1e29]: 📈
+          - text: OBSIDIVM
+        - generic [ref=f1e30] [cursor=pointer]:
+          - generic [ref=f1e31]: 🚩
+          - text: CTF Range
+          - generic [ref=f1e32]: "0"
+        - generic [ref=f1e33]: Toolkit
+        - generic [ref=f1e34] [cursor=pointer]:
+          - generic [ref=f1e35]: 📡
+          - text: Arsenal
+        - generic [ref=f1e36] [cursor=pointer]:
+          - generic [ref=f1e37]: 💻
+          - text: Terminal
+        - generic [ref=f1e38] [cursor=pointer]:
+          - generic [ref=f1e39]: 💾
+          - text: Config Library
+        - generic [ref=f1e40]: Command
+        - generic [ref=f1e41] [cursor=pointer]:
+          - generic [ref=f1e42]: ★
+          - text: Op Admiral
+        - generic [ref=f1e43]: System
+        - generic [ref=f1e44] [cursor=pointer]:
+          - generic [ref=f1e45]: 🧬
+          - text: Self-Improvement
+        - generic [ref=f1e46] [cursor=pointer]:
+          - generic [ref=f1e47]: ⚙️
+          - text: Settings
+        - generic [ref=f1e48] [cursor=pointer]:
+          - generic [ref=f1e49]: ℹ️
+          - text: About
+      - generic [ref=f1e50]:
+        - generic [ref=f1e51]: Initializing...
+        - generic [ref=f1e54]:
+          - generic [ref=f1e55]: Theme
+          - button "Storm theme" [ref=f1e56] [cursor=pointer]
+          - button "Ember theme" [ref=f1e57] [cursor=pointer]
+          - button "Crimson theme" [ref=f1e58] [cursor=pointer]
+          - button "Void theme" [ref=f1e59] [cursor=pointer]
+    - main [ref=f1e60]:
+      - generic [ref=f1e61]:
+        - heading "War Room" [level=1] [ref=f1e62]
+        - generic [ref=f1e63]:
+          - generic "Egress IP for test traffic — click to re-check" [ref=f1e64] [cursor=pointer]:
+            - generic [ref=f1e66]: "IP:"
+            - generic [ref=f1e67]: …
+          - button "Guided tour" [ref=f1e68] [cursor=pointer]: "?"
+          - button "⌘ Actions" [ref=f1e69] [cursor=pointer]
+          - button "⚔️ War Room" [ref=f1e70] [cursor=pointer]
+      - generic [ref=f1e71]:
+        - generic [ref=f1e72]:
+          - generic [ref=f1e73]:
+            - generic [ref=f1e74]:
+              - generic [ref=f1e75]:
+                - generic [ref=f1e76]: Mission
+                - generic [ref=f1e77]: STANDBY
+              - generic [ref=f1e79]:
+                - generic [ref=f1e80]: Status
+                - generic [ref=f1e81]: Awaiting orders
+              - generic [ref=f1e83]:
+                - generic [ref=f1e84]: Elapsed
+                - generic [ref=f1e85]: 00:00:00
+              - generic [ref=f1e87]:
+                - generic "Client-side LLM call count — backend/keyless missions run server-side (see System Events for live activity)" [ref=f1e88]:
+                  - generic [ref=f1e89]: API
+                  - generic [ref=f1e90]: "0"
+                - generic [ref=f1e91]:
+                  - generic [ref=f1e92]: Findings
+                  - generic [ref=f1e93]: "0"
+                - generic "Client-side quality-review score — backend/keyless missions gate quality server-side" [ref=f1e94]:
+                  - generic [ref=f1e95]: Quality
+                  - generic [ref=f1e96]: "--"
+            - generic [ref=f1e97]:
+              - generic [ref=f1e98]: LOW
+              - button "▶ ENGAGE" [ref=f1e99] [cursor=pointer]
+              - button "✕" [ref=f1e100] [cursor=pointer]
+          - generic [ref=f1e101]:
+            - generic [ref=f1e102]:
+              - generic [ref=f1e103]: Backend
+              - generic [ref=f1e104]: — checking —
+            - generic [ref=f1e105]:
+              - generic [ref=f1e106]: AI Backbone
+              - generic [ref=f1e107]: —
+            - generic [ref=f1e108]:
+              - generic [ref=f1e109]: Local Agents
+              - generic "Manage in Settings" [ref=f1e110] [cursor=pointer]: —
+          - generic [ref=f1e111]:
+            - generic [ref=f1e112]:
+              - generic [ref=f1e113]:
+                - generic [ref=f1e114]: ⚓ SITREP
+                - generic [ref=f1e115]: STANDBY
+              - generic [ref=f1e116]: Awaiting orders — point at a target and engage.
+            - generic [ref=f1e117]:
+              - generic [ref=f1e118]:
+                - generic [ref=f1e119]: ▌ SYSTEM EVENTS
+                - generic [ref=f1e120]:
+                  - generic [ref=f1e121]: "0"
+                  - button "⏸" [ref=f1e122] [cursor=pointer]
+                  - button "CLR" [ref=f1e123] [cursor=pointer]
+              - generic [ref=f1e124]: — system events stream (live from the backend) —
+          - generic [ref=f1e126]:
+            - generic [ref=f1e127]: 🎯 START A ZERO-DAY HUNT
+            - generic [ref=f1e128]:
+              - text: "Point T3MP3ST at any authorized target and watch it work: live recon with real tools (nmap, DNS, HTTP probes), every finding provenance-gated to the command that produced it — no phantom flags. An LLM reasons over that ground truth in the open. Kill-chain phases past recon are labeled for what they are — no fake pwns, no vibes. Don't take our word for it:"
+              - generic [ref=f1e129]:
+                - text: run
+                - code [ref=f1e130]: npm run verify-claims
+              - text: and re-derive every number yourself. Only test what you own or have written permission to assess.
+            - generic [ref=f1e131]:
+              - generic [ref=f1e132]: ⚡
+              - generic [ref=f1e133]: Run keyless — connect Claude Code, Codex, or Hermes and T3MP3ST drives missions through your agent's own login (no API key). To run, connect a local agent or add a key. Set up in Settings →
+            - generic [ref=f1e134]:
+              - textbox "github.com/org/repo · npm / pypi package · host or IP" [ref=f1e135]:
+                - /placeholder: github.com/org/repo   ·   npm / pypi package   ·   host or IP
+              - button "🎯 HUNT" [ref=f1e136] [cursor=pointer]
+              - button "⚓ Guided" [ref=f1e137] [cursor=pointer]
+            - generic [ref=f1e139] [cursor=pointer]:
+              - checkbox "🤖 AUTONOMOUS MODE" [ref=f1e140]
+              - generic "Point and go — T3MP3ST drives the hunt without stopping for step-by-step approval. Recon runs live with real tools; later kill-chain phases are scaffolded, not full auto-pwn. Every step is receipted." [ref=f1e141]: 🤖 AUTONOMOUS MODE
+            - generic [ref=f1e142]: "Examples: github.com/expressjs/express · lodash · 10.0.0.5"
+          - generic [ref=f1e143]:
+            - generic [ref=f1e145]:
+              - generic [ref=f1e146]: Operator Clarity Layer
+              - generic [ref=f1e147]: Current truth, next move, and proof pressure for the active hunt.
+            - generic [ref=f1e149]:
+              - button "Compact" [ref=f1e150] [cursor=pointer]
+              - button "Copy Snapshot" [ref=f1e151] [cursor=pointer]
+              - button "First Blocker" [ref=f1e152] [cursor=pointer]
+              - generic [ref=f1e153]: updated --
+              - generic [ref=f1e154]: snapshot idle
+            - generic [ref=f1e156]:
+              - generic [ref=f1e158]:
+                - generic [ref=f1e159]: Operator Inbox
+                - generic [ref=f1e160]: 0 open
+              - generic [ref=f1e162]:
+                - generic [ref=f1e163]: Gate Snapshot
+                - generic [ref=f1e164]: hold
+              - generic [ref=f1e166]:
+                - generic [ref=f1e167]: Proof State
+                - generic [ref=f1e168]: ledger
+          - generic [ref=f1e170]:
+            - generic [ref=f1e171]:
+              - generic [ref=f1e172]: Mission Spine
+              - generic [ref=f1e173]: Recorder, proof, tasks, target intake, and training range folded into one operator surface.
+            - generic [ref=f1e174]:
+              - button "▸ Expand" [ref=f1e175] [cursor=pointer]
+              - button "Refresh" [ref=f1e176] [cursor=pointer]
+              - button "Bundle" [ref=f1e177] [cursor=pointer]
+              - button "Field Drill" [ref=f1e178] [cursor=pointer]
+          - generic [ref=f1e179]:
+            - generic [ref=f1e180]:
+              - generic [ref=f1e181]:
+                - generic [ref=f1e182]: PLINY CODE OPS LAYER
+                - generic [ref=f1e183]: Slash grammar, route preview, agent lanes, memory, computer-use, and evidence gates folded into the original T3MP3ST war room.
+              - generic [ref=f1e184]:
+                - generic [ref=f1e185]: 104 catalog tools
+                - generic [ref=f1e186]: "-- wired"
+                - generic [ref=f1e187]: "-- installed"
+                - generic [ref=f1e188]: 20 slash cmds
+                - generic [ref=f1e189]: agent memory
+                - generic [ref=f1e190]: egress gated
+            - generic [ref=f1e191]:
+              - generic [ref=f1e192]:
+                - generic [ref=f1e193]: Scope
+                - generic [ref=f1e194]: needs contract
+              - generic [ref=f1e195]:
+                - generic [ref=f1e196]: Target
+                - generic [ref=f1e197]: local-lab fallback
+              - generic [ref=f1e198]:
+                - generic [ref=f1e199]: Tools
+                - generic [ref=f1e200]: checking arsenal
+              - generic [ref=f1e201]:
+                - generic [ref=f1e202]: Mode
+                - generic [ref=f1e203]: checking backend
+              - generic [ref=f1e204]:
+                - generic [ref=f1e205]: Agents
+                - generic [ref=f1e206]: lanes preview only
+              - generic [ref=f1e207]:
+                - generic [ref=f1e208]: Evidence
+                - generic [ref=f1e209]: ledger required
+              - generic [ref=f1e210]:
+                - generic [ref=f1e211]: Receipt
+                - generic [ref=f1e212]: pending request
+            - generic [ref=f1e214]:
+              - generic [ref=f1e215]:
+                - generic [ref=f1e216]: 🔐 Tool Approvals & Spicy-Action Audit
+                - generic [ref=f1e217]: 0 events
+              - generic [ref=f1e218]: Intrusive / credential / dangerous tools stay inert until approved — approve once, then free. Credential & dangerous actions warn on every run; every gated decision is audited.
+              - generic [ref=f1e219]: No tools approved yet.
+              - generic [ref=f1e221]: Waiting for gated tool calls…
+            - generic [ref=f1e222]:
+              - generic [ref=f1e224]:
+                - generic [ref=f1e225]: Zero-Day Hunt Pulse
+                - generic [ref=f1e226]: standby
+              - generic [ref=f1e229]:
+                - generic [ref=f1e230]: Specialist Swarm
+                - generic [ref=f1e231]: 0 active
+            - generic [ref=f1e233]:
+              - generic [ref=f1e235]:
+                - generic [ref=f1e236]: Swarm Cognition Loop
+                - generic [ref=f1e237]: warming
+              - generic [ref=f1e239]:
+                - generic [ref=f1e240]: Reasoning Bus
+                - generic [ref=f1e241]: no traffic
+            - generic [ref=f1e242]:
+              - generic [ref=f1e244]:
+                - generic [ref=f1e245]: Guided Starts
+                - generic [ref=f1e246]: plain-language ops
+              - generic [ref=f1e248]:
+                - generic [ref=f1e249]: Knowledge Atlas
+                - generic [ref=f1e250]: agent context packs
+              - generic [ref=f1e252]:
+                - generic [ref=f1e253]: Agent Prompt Packs
+                - generic [ref=f1e254]: 0 active
+              - generic [ref=f1e256]:
+                - generic [ref=f1e257]: Forefront Radar
+                - generic [ref=f1e258]: 0 lanes
+              - generic [ref=f1e259]:
+                - generic [ref=f1e260]:
+                  - generic [ref=f1e261]: Team Preview
+                  - generic [ref=f1e262]: review kit
+                - generic [ref=f1e263]:
+                  - button "guide" [ref=f1e264] [cursor=pointer]
+                  - button "installs" [ref=f1e265] [cursor=pointer]
+                  - button "scope" [ref=f1e266] [cursor=pointer]
+                - generic [ref=f1e267]:
+                  - generic [ref=f1e268] [cursor=pointer]:
+                    - generic [ref=f1e269]: doctor
+                    - generic [ref=f1e270]: npm run doctor
+                  - generic [ref=f1e271] [cursor=pointer]:
+                    - generic [ref=f1e272]: demos
+                    - generic [ref=f1e273]: field, exploit, arsenal, prompt
+            - generic [ref=f1e274]:
+              - generic [ref=f1e275]:
+                - generic [ref=f1e276]:
+                  - generic [ref=f1e277]: Capability Preflight
+                  - generic [ref=f1e278]: not run
+                - button "preflight" [ref=f1e280] [cursor=pointer]
+              - generic [ref=f1e281]:
+                - generic [ref=f1e282]:
+                  - generic [ref=f1e283]: Tool Adapter Forge
+                  - generic [ref=f1e284]: not synced
+                - generic [ref=f1e285]:
+                  - button "sync arsenal" [ref=f1e286] [cursor=pointer]
+                  - button "plan tools" [ref=f1e287] [cursor=pointer]
+                  - button "activation" [ref=f1e288] [cursor=pointer]
+              - generic [ref=f1e289]:
+                - generic [ref=f1e290]:
+                  - generic [ref=f1e291]: Evidence Ledger
+                  - generic [ref=f1e292]: 0 items
+                - button "log evidence" [ref=f1e294] [cursor=pointer]
+              - generic [ref=f1e295]:
+                - generic [ref=f1e296]:
+                  - generic [ref=f1e297]: Hypothesis Graph
+                  - generic [ref=f1e298]: 0 nodes
+                - generic [ref=f1e299]:
+                  - button "hypothesis" [ref=f1e300] [cursor=pointer]
+                  - button "graph" [ref=f1e301] [cursor=pointer]
+                  - button "promote" [ref=f1e302] [cursor=pointer]
+              - generic [ref=f1e303]:
+                - generic [ref=f1e304]:
+                  - generic [ref=f1e305]: Hunt Queue
+                  - generic [ref=f1e306]: 0 tasks
+                - generic [ref=f1e307]:
+                  - button "decompose" [ref=f1e308] [cursor=pointer]
+                  - button "complete" [ref=f1e309] [cursor=pointer]
+                  - button "sync" [ref=f1e310] [cursor=pointer]
+              - generic [ref=f1e311]:
+                - generic [ref=f1e312]:
+                  - generic [ref=f1e313]: Watch Loop
+                  - generic [ref=f1e314]: standby
+                - generic [ref=f1e315]:
+                  - button "pulse" [ref=f1e316] [cursor=pointer]
+                  - button "nudge" [ref=f1e317] [cursor=pointer]
+                  - button "arm" [ref=f1e318] [cursor=pointer]
+              - generic [ref=f1e319]:
+                - generic [ref=f1e320]:
+                  - generic [ref=f1e321]: The Fixer
+                  - generic [ref=f1e322]: WOLF standby
+                - generic [ref=f1e323]:
+                  - button "diagnose" [ref=f1e324] [cursor=pointer]
+                  - button "repair" [ref=f1e325] [cursor=pointer]
+              - generic [ref=f1e326]:
+                - generic [ref=f1e327]:
+                  - generic [ref=f1e328]: Findings / Retest
+                  - generic [ref=f1e329]: 0 open
+                - generic [ref=f1e330]:
+                  - button "log finding" [ref=f1e331] [cursor=pointer]
+                  - button "retest" [ref=f1e332] [cursor=pointer]
+              - generic [ref=f1e333]:
+                - generic [ref=f1e334]:
+                  - generic [ref=f1e335]: Repro Packs
+                  - generic [ref=f1e336]: 0 packs
+                - generic [ref=f1e337]:
+                  - button "build" [ref=f1e338] [cursor=pointer]
+                  - button "bundle" [ref=f1e339] [cursor=pointer]
+              - generic [ref=f1e340]:
+                - generic [ref=f1e341]:
+                  - generic [ref=f1e342]: Pressure Paths
+                  - generic [ref=f1e343]: 0 paths
+                - generic [ref=f1e344]:
+                  - button "plan" [ref=f1e345] [cursor=pointer]
+                  - button "canary" [ref=f1e346] [cursor=pointer]
+                  - button "duel" [ref=f1e347] [cursor=pointer]
+                  - button "mutate" [ref=f1e348] [cursor=pointer]
+                  - button "chain" [ref=f1e349] [cursor=pointer]
+                  - button "repro" [ref=f1e350] [cursor=pointer]
+                  - button "bundle" [ref=f1e351] [cursor=pointer]
+              - generic [ref=f1e352]:
+                - generic [ref=f1e353]:
+                  - generic [ref=f1e354]: Next Moves
+                  - generic [ref=f1e355]: no runbook
+                - generic [ref=f1e356]:
+                  - button "runbook" [ref=f1e357] [cursor=pointer]
+                  - button "gate" [ref=f1e358] [cursor=pointer]
+                  - button "bundle" [ref=f1e359] [cursor=pointer]
+              - generic [ref=f1e360]:
+                - generic [ref=f1e361]:
+                  - generic [ref=f1e362]: Learning Capsule
+                  - generic [ref=f1e363]: proposal gate
+                - generic [ref=f1e364]:
+                  - button "sync" [ref=f1e365] [cursor=pointer]
+                  - button "review run" [ref=f1e366] [cursor=pointer]
+            - generic [ref=f1e367]:
+              - generic [ref=f1e368]:
+                - generic [ref=f1e369]:
+                  - generic [ref=f1e370]: Mission Contract
+                  - generic [ref=f1e371]: plain text -> route
+                - 'textbox "Describe the authorized operation in normal language. Example: We own this staging API. Find the highest-impact risks, preserve evidence, and give engineering a fix plan." [ref=f1e372]'
+                - generic [ref=f1e373]:
+                  - combobox "Mission family" [ref=f1e374]:
+                    - option "Auto-route from directive" [selected]
+                    - option "Web / API"
+                    - option "AI red team"
+                    - option "Cloud / infra"
+                    - option "Smart contracts"
+                    - option "Code / supply chain"
+                    - option "Crypto / secrets"
+                    - option "Reverse / binary"
+                    - option "Agent warfare"
+                    - option "Social / OSINT"
+                    - option "Reports / remediation"
+                  - combobox "Agent routing mode" [ref=f1e375]:
+                    - option "Human wizard" [selected]
+                    - option "Agent lanes"
+                    - option "Expert console"
+                    - option "Best-of-N race"
+                - generic [ref=f1e376]:
+                  - button "/audit web" [ref=f1e377] [cursor=pointer]
+                  - button "/agent probe" [ref=f1e378] [cursor=pointer]
+                  - button "/repo review" [ref=f1e379] [cursor=pointer]
+                  - button "/report" [ref=f1e380] [cursor=pointer]
+                  - button "receipt" [ref=f1e381] [cursor=pointer]
+                  - button "stage" [ref=f1e382] [cursor=pointer]
+                  - button "field drill" [ref=f1e383] [cursor=pointer]
+              - generic [ref=f1e384]:
+                - generic [ref=f1e385]:
+                  - generic [ref=f1e386]: Agent Lanes
+                  - generic [ref=f1e387]: bounded delegation
+                - generic [ref=f1e388]:
+                  - generic [ref=f1e389]:
+                    - generic [ref=f1e390]: Codex
+                    - generic [ref=f1e391]: code, repo audit, patch plan
+                    - code [ref=f1e392]: receipts
+                  - generic [ref=f1e393]:
+                    - generic [ref=f1e394]: Claude
+                    - generic [ref=f1e395]: long-context review, report prose
+                    - code [ref=f1e396]: summary
+                  - generic [ref=f1e397]:
+                    - generic [ref=f1e398]: Hermes
+                    - generic [ref=f1e399]: local tools, shell, ranges
+                    - code [ref=f1e400]: artifacts
+                  - generic [ref=f1e401]:
+                    - generic [ref=f1e402]: Browser
+                    - generic [ref=f1e403]: visual checks and app smoke tests
+                    - code [ref=f1e404]: screens
+              - generic [ref=f1e405]:
+                - generic [ref=f1e406]:
+                  - generic [ref=f1e407]: Evidence Gates
+                  - generic [ref=f1e408]: before claims harden
+                - generic [ref=f1e409]:
+                  - generic [ref=f1e410]:
+                    - generic [ref=f1e411]: Scope
+                    - generic [ref=f1e412]: owned target, allowed actions
+                    - code [ref=f1e413]: S3R4PH1M
+                  - generic [ref=f1e414]:
+                    - generic [ref=f1e415]: Proof
+                    - generic [ref=f1e416]: artifact, log, screenshot, diff
+                    - code [ref=f1e417]: ledger
+                  - generic [ref=f1e418]:
+                    - generic [ref=f1e419]: Judge
+                    - generic [ref=f1e420]: false-positive and impact review
+                    - code [ref=f1e421]: JUDG3
+                  - generic [ref=f1e422]:
+                    - generic [ref=f1e423]: Receipt
+                    - generic [ref=f1e424]: active tools require approval
+                    - code [ref=f1e425]: scopeguard
+                  - generic [ref=f1e426]:
+                    - generic [ref=f1e427]: Range
+                    - generic [ref=f1e428]: optional replay when needed
+                    - code [ref=f1e429]: CRUCIBLE
+          - generic [ref=f1e431]:
+            - generic [ref=f1e432]:
+              - generic [ref=f1e433]:
+                - generic [ref=f1e434]: 👥
+                - generic [ref=f1e435]: "0"
+              - generic [ref=f1e436]:
+                - generic [ref=f1e437]: 🎯
+                - generic [ref=f1e438]: "0"
+              - generic [ref=f1e439]:
+                - generic [ref=f1e440]: 🔑
+                - generic [ref=f1e441]: "NO"
+              - generic [ref=f1e442]:
+                - generic [ref=f1e443]: 🛠️
+                - generic [ref=f1e444]: OPT
+            - generic [ref=f1e445]:
+              - generic [ref=f1e446]:
+                - generic [ref=f1e447]: Quick Demo
+                - generic [ref=f1e448]: Authorized targets
+              - button "▶ ONE-CLICK DEMO" [ref=f1e449] [cursor=pointer]
+              - generic [ref=f1e450]: Auto-deploys operators, adds a test target, and launches. No API key needed if a local agent is connected.
+              - generic [ref=f1e451]:
+                - generic [ref=f1e452] [cursor=pointer]:
+                  - generic [ref=f1e453]: 🌐
+                  - generic [ref=f1e454]:
+                    - generic [ref=f1e455]: testphp.vulnweb.com
+                    - generic [ref=f1e456]: Acunetix test site — SQLi, XSS, CSRF
+                  - generic [ref=f1e457]: +
+                - generic [ref=f1e458] [cursor=pointer]:
+                  - generic [ref=f1e459]: 🏦
+                  - generic [ref=f1e460]:
+                    - generic [ref=f1e461]: demo.testfire.net
+                    - generic [ref=f1e462]: HCL AppScan demo — auth bypass, injection
+                  - generic [ref=f1e463]: +
+                - generic [ref=f1e464] [cursor=pointer]:
+                  - generic [ref=f1e465]: 📡
+                  - generic [ref=f1e466]:
+                    - generic [ref=f1e467]: scanme.nmap.org
+                    - generic [ref=f1e468]: Nmap official test host — port scanning
+                  - generic [ref=f1e469]: +
+            - generic [ref=f1e470]:
+              - generic [ref=f1e471]:
+                - generic [ref=f1e472]: Target
+                - generic [ref=f1e473]: "0"
+              - generic [ref=f1e474]:
+                - textbox "target.com or 10.0.0.0/24" [ref=f1e475]
+                - combobox [ref=f1e476]:
+                  - option "Host" [selected]
+                  - option "Net"
+                  - option "Web"
+                  - option "API"
+                - button "+" [ref=f1e477] [cursor=pointer]
+              - 'textbox "Ports: 80,443,8080" [ref=f1e478]'
+              - generic [ref=f1e479]:
+                - button "Bulk Import" [ref=f1e480] [cursor=pointer]
+                - button "From File" [ref=f1e481] [cursor=pointer]
+              - generic [ref=f1e482]: No targets
+            - generic [ref=f1e485]:
+              - generic [ref=f1e486]:
+                - generic [ref=f1e487]: Operators
+                - generic [ref=f1e488]:
+                  - generic [ref=f1e489]: "0"
+                  - combobox [ref=f1e490]:
+                    - option "Adaptive" [selected]
+                    - option "Parallel"
+                    - option "Sequential"
+                    - option "Debate"
+                    - option "Best-of-N"
+              - generic [ref=f1e492]:
+                - button "Deploy All" [ref=f1e493] [cursor=pointer]
+                - button "Recall" [ref=f1e494] [cursor=pointer]
+            - generic [ref=f1e495]:
+              - generic [ref=f1e496]:
+                - generic [ref=f1e497]: Config
+                - combobox [ref=f1e498] [cursor=pointer]:
+                  - option "Template..." [selected]
+                  - option "Web App Assessment"
+                  - option "Network Pentest"
+                  - option "Quick Recon"
+                  - option "Full Kill Chain"
+                  - option "Stealth Recon"
+              - textbox "Op Codename" [ref=f1e499]
+              - generic [ref=f1e500]:
+                - 'combobox "OPSEC Level: Controls how aggressive operators are. Stealth = slow & quiet, Aggressive = fast & noisy." [ref=f1e501]':
+                  - option "Stealth"
+                  - option "Normal" [selected]
+                  - option "Aggressive"
+                - 'combobox "Cognitive Mode: How operators coordinate their reasoning." [ref=f1e502]':
+                  - option "Adaptive" [selected]
+                  - option "Parallel"
+                  - option "Sequential"
+                  - option "Debate"
+                  - option "Best-of-N"
+              - generic [ref=f1e503]:
+                - 'generic "Tastemaker: LLM selects which operator is best suited for each phase" [ref=f1e504] [cursor=pointer]':
+                  - checkbox "Tastemaker" [checked] [ref=f1e505]
+                  - generic [ref=f1e506]: Tastemaker
+                - 'generic "Reflection: Operators self-critique and refine their output before submitting" [ref=f1e507] [cursor=pointer]':
+                  - checkbox "Reflection" [checked] [ref=f1e508]
+                  - generic [ref=f1e509]: Reflection
+                - 'generic "Strict QA: Additional quality gate — rejects low-confidence or hallucinated output" [ref=f1e510] [cursor=pointer]':
+                  - checkbox "Strict QA" [checked] [ref=f1e511]
+                  - generic [ref=f1e512]: Strict QA
+                - 'generic "Autonomous (Blitz): Full auto-pilot — skips human checkpoints, maximum speed. Use with caution." [ref=f1e513] [cursor=pointer]':
+                  - checkbox "Autonomous (Blitz)" [ref=f1e514]
+                  - generic [ref=f1e515]: Autonomous (Blitz)
+              - generic [ref=f1e516]: OPSEC Level, Cognitive Mode, and the toggles above tune the client-side reasoning pipeline — backend/keyless missions currently run operators with their configured prompts + defaults.
+              - generic [ref=f1e517]:
+                - button "▶ ENGAGE" [ref=f1e518] [cursor=pointer]
+                - button "BLITZ" [ref=f1e519] [cursor=pointer]
+            - generic [ref=f1e520]:
+              - generic [ref=f1e521]:
+                - generic [ref=f1e522]: Quality
+                - generic [ref=f1e523]: ACTIVE
+              - generic [ref=f1e524]:
+                - generic [ref=f1e525]:
+                  - generic [ref=f1e526]: "0"
+                  - generic [ref=f1e527]: OK
+                - generic [ref=f1e528]:
+                  - generic [ref=f1e529]: "0"
+                  - generic [ref=f1e530]: REV
+                - generic [ref=f1e531]:
+                  - generic [ref=f1e532]: "0"
+                  - generic [ref=f1e533]: REJ
+                - generic [ref=f1e534]:
+                  - generic [ref=f1e535]: "0"
+                  - generic [ref=f1e536]: ESC
+            - generic [ref=f1e539]:
+              - generic [ref=f1e540]:
+                - generic [ref=f1e541]: "0"
+                - generic [ref=f1e542]: Targets
+              - generic [ref=f1e543]:
+                - generic [ref=f1e544]: "0"
+                - generic [ref=f1e545]: Creds
+              - generic [ref=f1e546]:
+                - generic [ref=f1e547]: "0"
+                - generic [ref=f1e548]: Access
+              - generic [ref=f1e549]:
+                - generic [ref=f1e550]: 0/5
+                - generic [ref=f1e551]: Phases
+          - generic [ref=f1e552]:
+            - generic [ref=f1e553]:
+              - generic [ref=f1e554]:
+                - generic [ref=f1e555]: Findings & Loot
+                - generic [ref=f1e556]: (0)
+              - generic [ref=f1e557]:
+                - generic [ref=f1e558] [cursor=pointer]: ALL
+                - generic [ref=f1e559] [cursor=pointer]: CRIT
+                - generic [ref=f1e560] [cursor=pointer]: HIGH
+                - generic [ref=f1e561] [cursor=pointer]: MED
+                - generic [ref=f1e562] [cursor=pointer]: LOW
+                - generic [ref=f1e563] [cursor=pointer]: CREDS
+                - generic [ref=f1e564]: "|"
+                - button "↓ REPORT" [ref=f1e565] [cursor=pointer]
+            - generic [ref=f1e566]:
+              - generic [ref=f1e567]: Severity
+              - generic [ref=f1e568]: Type
+              - generic [ref=f1e569]: Finding
+              - generic [ref=f1e570]: Target
+              - generic [ref=f1e571]: Phase
+            - generic [ref=f1e573]: No findings yet. Engage a mission to discover vulnerabilities.
+          - generic [ref=f1e575]:
+            - generic [ref=f1e576]:
+              - generic [ref=f1e577]: Enter Launch
+              - generic [ref=f1e578]: Esc Abort
+              - generic [ref=f1e579]: D Deploy All
+              - generic [ref=f1e580]: K Clear
+              - generic [ref=f1e581]: / Search
+            - generic [ref=f1e582]:
+              - button "🔇" [ref=f1e583] [cursor=pointer]
+              - button "History" [ref=f1e584] [cursor=pointer]
+        - text: SENSOR DECK // AUTHORIZED OPERATIONS
+  - button "Guided tour" [ref=f1e585] [cursor=pointer]: "?"
