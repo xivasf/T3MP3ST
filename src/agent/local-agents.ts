@@ -12,10 +12,11 @@
 //     stdout (the model's reply to OUR prompt — not secrets). Everything is local + user-initiated.
 // =============================================================================
 
-import { execFile, execFileSync, spawn } from 'child_process';
+import { execFile, execFileSync } from 'child_process';
 import { accessSync, constants, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync } from 'fs';
 import { homedir, tmpdir, userInfo } from 'os';
 import { join } from 'path';
+import crossSpawn from 'cross-spawn';
 
 // t3mp3st injects its OWN provider keys (from .env) into the server process. If we let those leak into
 // a spawned CLI, the CLI uses t3mp3st's key instead of the user's native login → 401. The entire point
@@ -280,14 +281,16 @@ export function resolveBin(bin: string): string | undefined {
 /**
  * Windows-safe launcher for a resolved agent binary.
  *
- * A `.cmd`/`.bat` shim can't be spawned with shell:false on Windows. It must run through cmd.exe, but
- * hand-rolling `spawn('cmd.exe', ['/d','/s','/c', shim, ...args])` is unsafe because cmd.exe re-parses
- * the command tail with its own quoting rules. Letting Node launch the resolved shim with shell:true
- * uses Node's patched argument escaping path, so adversarial prompt text stays a literal argument.
+ * A `.cmd`/`.bat` shim can't be spawned with shell:false on Windows — it must run through cmd.exe.
+ * Node's own `spawn(bin, args, {shell:true})` does NOT safely do this: with an args array it just
+ * concatenates them with spaces instead of escaping each one (Node's DEP0190), so any argument
+ * containing a space — e.g. a multi-word prompt — gets word-split again once cmd.exe and the shim's
+ * `%*` forwarding re-parse the line (confirmed: broke every ping/dispatch prompt with a space in it).
+ * cross-spawn is the standard fix: it detects a `.cmd`/`.bat` target and quotes each argument for
+ * cmd.exe correctly, so adversarial prompt text stays a single literal argument, on every platform.
  */
 function spawnAgent(resolvedBin: string, args: string[], options: import('child_process').SpawnOptions): import('child_process').ChildProcess {
-  if (needsShell(resolvedBin)) return spawn(resolvedBin, args, { ...options, shell: true });
-  return spawn(resolvedBin, args, { ...options, shell: false });
+  return crossSpawn(resolvedBin, args, options);
 }
 
 function needsShell(resolvedBin: string): boolean {
